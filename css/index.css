@@ -1,0 +1,108 @@
+#home{
+    min-height: 650px;
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6) 0 100%),url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    color: #FFF;
+}
+
+#home h1{
+    font-size: 3.75rem;
+}
+
+
+
+.nav-menu{
+    min-height: 100vh;
+    background-color: #111111;
+}
+
+/* .menu-icon{
+    background-color: #111111;
+} */
+
+.sidebar a , .menu-icon{
+    display: block;
+    margin: 30px;
+    font-size: 1.5625rem;
+    color: #FFF;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-colse i{
+    transform: translateX(110px);
+}
+
+.nav-menu a:hover{
+    color: #5A1A1C;
+}
+.bg-signer-title{
+    background-color: #E68184;
+    cursor: pointer;
+}
+.bg-content-signer{
+    background-color: #CCCCCC;
+}
+
+.signers h2 ,.signers p{
+    margin: 0;
+}
+.signer {
+    display: none;
+}
+.first {
+    display: block;
+}
+
+#timer{
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6) 0 100%) , url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer span{
+    display: block;
+    height: 100px;
+    border: 1px solid #fff;
+    margin-block: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    color: #FFF;
+}
+
+.inputs input ,.inputs textarea{
+    border:1px solid #CED4DA ;
+}
+.inputs input:focus , textarea:focus{
+    outline: #2b7ace;
+    border: 1px solid #2b7ace;
+    box-shadow: 0 0 7px #2b7ace;
+}
+
+.contact-ways span{
+    display: block;
+}
+
+span i{
+    color: #777777;
+}
+
+.icons span{
+    border: 1px solid #777777;
+    color: #777777;
+    margin-right: 5px;
+    padding: 10px;
+}
+.icons span:hover{
+    background-color: #D62E33;
+}
